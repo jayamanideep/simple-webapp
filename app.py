@@ -19,7 +19,7 @@ conn = mysql.connect()
 
 cursor = conn.cursor()
 
-@app.route("/")
+@app.route("\")
 def main():
     return "Welcome!"
 
